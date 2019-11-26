@@ -4,7 +4,7 @@ This is an application that shows a countdown clock for the time left until Chri
 
 ### Countdown clock
 
-I've used some of the code from [this excellent tutorial}(https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/) for creating a countdown clock by Florian Pop
+I've used some of the code from [this excellent tutorial](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/) for creating a countdown clock by Florian Pop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
