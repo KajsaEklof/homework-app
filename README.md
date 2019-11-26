@@ -1,3 +1,9 @@
+## Countdown to Christmas App
+
+This is an application that shows a countdown clock for the time left until Christmas Eve 2019. It was made as a homework in a UX and React course to practice using create-react-app and Github Pages. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
