@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import moment from "moment";
 
 class Countdown extends Component {
   state = {
@@ -32,25 +33,19 @@ class Countdown extends Component {
     const { days, hours, minutes, seconds } = this.state;
     return (
       <div>
-        <h1>Countdown</h1>
-        <div className="countdown-wrapper">
-          <div className="countdown-item">
-            {days}
-            <span>days</span>
-          </div>
-          <div className="countdown-item">
-            {hours}
-            <span>hours</span>
-          </div>
-          <div className="countdown-item">
-            {minutes}
-            <span>minutes</span>
-          </div>
-          <div className="countdown-item">
-            {seconds}
-            <span>seconds</span>
-          </div>
-        </div>
+      <div className="countdown-wrapper">
+        {days}
+        <span> Days </span>
+
+        {hours}
+        <span> Hours </span>
+
+        {minutes}
+        <span> Minutes </span>
+
+        {seconds}
+        <span> Seconds </span>
+      </div>
       </div>
     );
   }

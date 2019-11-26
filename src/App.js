@@ -1,17 +1,20 @@
 import React, { Component } from "react";
-import moment from 'moment';
-import './App.css';
-import Countdown from "./Countdown";
-
+import "./App.css";
+import Countdown from "./Components/Countdown";
 
 class App extends Component {
-  state = {  }
-  render() { 
+  state = {};
+  render() {
     return (
-      <Countdown timeTillDate="12 24 2019, 06:00 am" timeFormat="MM DD YYYY, h:mm a"/>
+      <div className="App-header">
+        <h1>How long until Christmas Eve?</h1>
+        <Countdown
+          timeTillDate="12 24 2019, 06:00 am"
+          timeFormat="MM DD YYYY, h:mm a"
+        />
+      </div>
     );
   }
 }
- 
-export default App;
 
+export default App;
