@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App-header">
         <h1>How long until Christmas Eve?</h1>
         <Countdown
-          timeTillDate="12 24 2019, 06:00 am"
+          timeTillDate="12 24 2020, 06:00 am"
           timeFormat="MM DD YYYY, h:mm a"
         />
       </div>
